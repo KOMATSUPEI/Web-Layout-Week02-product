@@ -1,0 +1,382 @@
+/* 隔線系統 */
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-1{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12);
+}
+
+.col-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*2);
+}
+
+.col-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*3);
+}
+
+.col-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*4);
+}
+
+.col-5{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*5);
+}
+
+.col-6{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*6);
+}
+
+.col-7{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*7);
+}
+
+.col-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*8);
+}
+
+.col-9{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*9);
+}
+
+.col-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*10);
+}
+
+.col-11{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*11);
+}
+
+.col-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*12);
+}
+
+/* 排版樣式 */
+
+.d-flex{
+    display: flex;
+}
+
+.d-block{
+    display: block;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flw-direction-row{
+    flex-direction: row;
+}
+
+.flw-direction-column{
+    flex-direction: column;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-start{
+    justify-content: flex-start;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.ai-start{
+    align-items: flex-start;
+}
+
+.ai-end{
+    align-items: flex-end;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+/* 文字 */
+
+.h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h2{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h5{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h6{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.text-md{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.text-sm{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* 間距 */
+
+.p-12{
+    padding: 12px;
+}
+
+.p-32{
+    padding: 32px;
+}
+
+.px-12{
+    padding: 0 12px;
+}
+
+.py-8{
+    padding: 8px 0;
+}
+
+.py-12{
+    padding: 12px 0;
+}
+
+.py-16{
+    padding: 16px 0;
+}
+
+.py-24{
+    padding: 24px 0;
+}
+
+.py-48{
+    padding: 48px 0;
+}
+
+.py-64{
+    padding: 64px 0;
+}
+
+.ps-8{
+    padding-left: 8px;
+}
+
+.pe-2{
+    padding-right: 2px;
+}
+
+.pe-8{
+    padding-right: 8px;
+}
+
+.pe-12{
+    padding-right: 12px;
+}
+
+.pe-24{
+    padding-right: 24px;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.me-40{
+    margin-right: 40px;
+}
+
+.me-48{
+    margin-right: 48px;
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+/* 顏色設定 */
+
+.text-primary-400{
+    color: var(--primary-400);
+}
+
+.text-neutral-white{
+    color: var(--neutral-0);
+}
+
+.text-neutral-500{
+    color: var(--neutral-500);
+}
+
+.text-neutral-600{
+    color: var(--neutral-600);
+}
+
+.text-neutral-900{
+    color: var(--neutral-900);
+}
+
+.text-danger-300{
+    color: var(--danger-300);
+}
+
+.bg-primary-200{
+    background-color: var(--primary-200);
+}
+
+.bg-primary-300{
+    background-color: var(--primary-300);
+}
+
+.bg-neutral-100{
+    background-color: var(--neutral-100);
+}
+
+.bg-neutral-900{
+    background-color: var(--neutral-900);
+}
+
+/* 元件 */
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "/";
+    padding: 0 12px;
+    color: var(--neutral-300);
+    font-weight: 700;
+}
+
+.breadcrumb-item{
+    display: flex;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-dark{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--neutral-0);
+    background-color: var(--neutral-900);
+}
+
+.btn-light{
+    border: 1px solid var(--neutral-900);
+}
+
+.footer{
+    padding: 64px 312px;
+    background-color: var(--neutral-100);
+}
+
+.border-top{
+    border-top: 1px solid var(--neutral-300);
+}
+
+.border-buttom{
+    border-bottom: 1px solid var(--neutral-300);
+}

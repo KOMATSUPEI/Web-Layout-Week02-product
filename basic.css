@@ -1,0 +1,29 @@
+*,*:before,*:after{ box-sizing: border-box; }
+
+/* *, *::before, *::after {
+  outline: 1px solid;
+} */
+
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.bi{
+    vertical-align: bottom;
+}
+
+a{
+    /* color: var(--primary-400); */
+    /* text-underline-offset: 4px; */
+    text-decoration: none;
+    display: block;
+}
+
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
